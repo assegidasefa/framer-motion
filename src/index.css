@@ -1,8 +1,8 @@
 /* fonts */
 @font-face {
-  font-family: 'Quicksand';
-  src: url('/Quicksand-Light.woff2') format('woff2'),
-    url('/Quicksand-Light.woff') format('woff');
+  font-family: "Quicksand";
+  src: url("/Quicksand-Light.woff2") format("woff2"),
+    url("/Quicksand-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
@@ -20,7 +20,7 @@ div {
   margin: 0;
   padding: 0;
   color: white;
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   letter-spacing: 2px;
   list-style-type: none;
   text-decoration: none;
@@ -28,7 +28,11 @@ div {
 
 body {
   background: rgb(100, 0, 123);
-  background: radial-gradient(circle, rgba(100, 0, 123, 1) 0%, rgba(62, 20, 86, 1) 100%);
+  background: radial-gradient(
+    circle,
+    rgba(100, 0, 123, 1) 0%,
+    rgba(62, 20, 86, 1) 100%
+  );
   overflow: hidden;
 }
 
@@ -93,7 +97,7 @@ li span.active {
 }
 
 li span.active::before {
-  content: '>';
+  content: ">";
   position: relative;
   top: -2px;
   margin-right: 6px;
