@@ -1,5 +1,6 @@
 import React from "react";
 import "./JackStyle.css";
+import TextSpan from "./TextSpan";
 
 const JackAnimation = () => {
   const sentence = "Assegid Assefa".split("");
@@ -7,7 +8,7 @@ const JackAnimation = () => {
   return (
     <div>
       {sentence.map((letter, index) => {
-        return <span key={index}>{letter}</span>;
+        return <TextSpan key={index}>{letter}</TextSpan>;
       })}
     </div>
   );
